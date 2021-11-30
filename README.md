@@ -1,4 +1,4 @@
-# CSCE-629-Project-SatyaSreenadhMeesala
+# README.md
 
 ### How to Run the Project
 
