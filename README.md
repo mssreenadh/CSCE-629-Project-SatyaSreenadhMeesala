@@ -8,7 +8,7 @@ If you have installed Apache Maven, you can run it by entering the following com
 
 ```shell
 $ mvn clean package
-$ java -cp target/graph-algorithms-1.0-SNAPSHOT.jar edu.tamu.wumrwds.MaxBandwidthPath
+$ java -cp target/graph-algorithms-1.0-SNAPSHOT.jar edu.tamu.mssreenadh.MaxBandwidthPath
 ```
 
 Once you run the application, both the console and the file `log.out` will output the result log.
