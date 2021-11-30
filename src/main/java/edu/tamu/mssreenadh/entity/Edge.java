@@ -1,4 +1,4 @@
-package edu.tamu.wumrwds.entity;
+package edu.tamu.mssreenadh.entity;
 
 public class Edge {
     /** Vertex 1 */
