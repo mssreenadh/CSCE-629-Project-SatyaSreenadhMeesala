@@ -1,4 +1,4 @@
-package edu.tamu.wumrwds.entity;
+package edu.tamu.mssreenadh.entity;
 
 public class Fringe implements Comparable<Fringe> {
     private int vertex;
