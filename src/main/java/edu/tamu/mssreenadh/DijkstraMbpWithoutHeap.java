@@ -1,4 +1,4 @@
-package edu.tamu.wumrwds;
+package edu.tamu.mssreenadh;
 
 import edu.tamu.wumrwds.entity.Graph;
 import edu.tamu.wumrwds.entity.MaximumBandwidthResult;
