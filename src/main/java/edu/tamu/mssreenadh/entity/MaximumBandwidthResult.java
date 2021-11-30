@@ -1,4 +1,4 @@
-package edu.tamu.wumrwds.entity;
+package edu.tamu.mssreenadh.entity;
 
 import java.util.ArrayList;
 import java.util.Collections;
