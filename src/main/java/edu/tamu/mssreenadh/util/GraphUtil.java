@@ -1,8 +1,8 @@
-package edu.tamu.wumrwds.util;
+package edu.tamu.mssreenadh.util;
 
-import edu.tamu.wumrwds.entity.Edge;
-import edu.tamu.wumrwds.entity.Graph;
-import edu.tamu.wumrwds.entity.Vertex;
+import edu.tamu.mssreenadh.entity.Edge;
+import edu.tamu.mssreenadh.entity.Graph;
+import edu.tamu.mssreenadh.entity.Vertex;
 
 import java.util.ArrayList;
 import java.util.Arrays;
