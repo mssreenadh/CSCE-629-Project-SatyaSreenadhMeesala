@@ -1,10 +1,10 @@
-package edu.tamu.wumrwds;
+package edu.tamu.mssreenadh;
 
-import edu.tamu.wumrwds.entity.Edge;
-import edu.tamu.wumrwds.entity.Graph;
-import edu.tamu.wumrwds.entity.MaximumBandwidthResult;
-import edu.tamu.wumrwds.entity.Vertex;
-import edu.tamu.wumrwds.structure.DisjointSet;
+import edu.tamu.mssreenadh.entity.Edge;
+import edu.tamu.mssreenadh.entity.Graph;
+import edu.tamu.mssreenadh.entity.MaximumBandwidthResult;
+import edu.tamu.mssreenadh.entity.Vertex;
+import edu.tamu.mssreenadh.structure.DisjointSet;
 
 import java.util.*;
 
