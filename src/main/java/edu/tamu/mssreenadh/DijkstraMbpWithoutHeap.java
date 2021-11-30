@@ -1,8 +1,8 @@
 package edu.tamu.mssreenadh;
 
-import edu.tamu.wumrwds.entity.Graph;
-import edu.tamu.wumrwds.entity.MaximumBandwidthResult;
-import edu.tamu.wumrwds.entity.Vertex;
+import edu.tamu.mssreenadh.entity.Graph;
+import edu.tamu.mssreenadh.entity.MaximumBandwidthResult;
+import edu.tamu.mssreenadh.entity.Vertex;
 
 import java.util.ArrayList;
 import java.util.List;
