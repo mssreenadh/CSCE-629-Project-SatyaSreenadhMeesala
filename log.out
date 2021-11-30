@@ -1,0 +1,1355 @@
+21/11/30 16:39:51.430 main INFO MaxBandwidthPath: ================================ Start to run 3 algorithms on the given graph ================================
+
+21/11/30 16:39:51.437 main INFO MaxBandwidthPath: # of edges: m = 15000
+21/11/30 16:39:51.439 main INFO MaxBandwidthPath: # of vertices: n = 5000
+21/11/30 16:39:51.448 main INFO MaxBandwidthPath: Average degree: average = 6.0
+21/11/30 16:39:51.450 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:51.451 main INFO MaxBandwidthPath: s = 3631, t = 3530
+21/11/30 16:39:51.452 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:51.453 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:51.454 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:51.453
+21/11/30 16:39:51.860 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:51.86
+21/11/30 16:39:51.862 main INFO MaxBandwidthPath: Total time cost: cost = 407 milliseconds
+21/11/30 16:39:51.864 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3631->3630->746->2384->304->303->302->301->4032->459->1528->1527->4346->4345->2302->4760->3158->3157->0->4646->4647->4648->2809->979->1426->3971->4100->3006->3007->3323->1625->1626->740->2827->1863->1864->2971->643->644->1549->378->4349->2412->1605->1606->1607->775->4893->1695->1696->2870->2871->1948->2425->3786->3785->1449->3531->3530]
+21/11/30 16:39:51.865 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1498096301
+
+21/11/30 16:39:51.866 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:51.866 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:51.868 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:51.871 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:51.871
+21/11/30 16:39:52.045 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:52.045
+21/11/30 16:39:52.049 main INFO MaxBandwidthPath: Total time cost: cost = 174 milliseconds
+21/11/30 16:39:52.059 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3631->3630->746->2384->304->303->302->301->4032->459->1528->1527->4346->4345->2302->4760->3158->3157->0->4646->4647->4648->2809->979->1426->3971->4100->3006->3007->3323->1625->1626->740->2827->1863->1864->2971->643->644->1549->378->4349->2412->1605->1606->1607->775->4893->1695->1696->2870->2871->1948->2425->3786->3785->1449->3531->3530]
+21/11/30 16:39:52.061 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1498096301
+
+21/11/30 16:39:52.061 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:52.061 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.062 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:52.062 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:52.062
+21/11/30 16:39:52.225 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:52.225
+21/11/30 16:39:52.231 main INFO MaxBandwidthPath: Total time cost: cost = 163 milliseconds
+21/11/30 16:39:52.233 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3631->3630->746->2384->304->303->302->301->4032->459->1528->1527->4346->4345->2302->4760->3158->3157->0->4646->4647->4648->2809->979->1426->4972->3016->652->4744->354->353->352->3057->2590->3960->3961->3962->1365->2838->3732->1520->2911->1300->494->1049->1050->1985->1986->3499->2806->4652->130->4374->2022->2023->4025->2824->2601->4261->4262->3197->389->1507->1506->1669->4366->2969->4994->1092->3747->3746->1317->4953->4952->2035->3858->3530]
+21/11/30 16:39:52.235 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1498096301
+
+21/11/30 16:39:52.236 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:52.239 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.239 main INFO MaxBandwidthPath: s = 4704, t = 3370
+21/11/30 16:39:52.240 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:52.240 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:52.241 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:52.241
+21/11/30 16:39:52.438 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:52.438
+21/11/30 16:39:52.440 main INFO MaxBandwidthPath: Total time cost: cost = 197 milliseconds
+21/11/30 16:39:52.442 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4704->1946->1947->1948->2871->3731->4623->510->3012->3011->3693->526->93->577->2412->1605->1606->1607->775->4893->1695->389->1507->1506->1669->4366->2969->4994->828->827->4326->2893->3370]
+21/11/30 16:39:52.443 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1734259023
+
+21/11/30 16:39:52.444 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:52.444 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.445 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:52.445 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:52.445
+21/11/30 16:39:52.578 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:52.578
+21/11/30 16:39:52.585 main INFO MaxBandwidthPath: Total time cost: cost = 133 milliseconds
+21/11/30 16:39:52.588 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4704->1946->1947->1948->2871->3731->4623->510->3012->3011->3693->526->93->577->2412->1605->1606->1607->775->4893->1695->389->1507->1506->1669->4366->2969->4994->828->827->4326->2893->3370]
+21/11/30 16:39:52.588 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1734259023
+
+21/11/30 16:39:52.589 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:52.589 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.590 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:52.590 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:52.59
+21/11/30 16:39:52.612 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:52.612
+21/11/30 16:39:52.614 main INFO MaxBandwidthPath: Total time cost: cost = 22 milliseconds
+21/11/30 16:39:52.619 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4704->1946->1947->1948->2871->3731->4623->510->3012->3011->3693->526->93->577->2412->1605->1606->1607->775->4893->1695->389->1507->1506->1669->4366->2969->4994->828->827->4326->2893->3370]
+21/11/30 16:39:52.619 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1734259023
+
+21/11/30 16:39:52.620 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:52.620 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.620 main INFO MaxBandwidthPath: s = 4140, t = 4411
+21/11/30 16:39:52.621 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:52.621 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:52.625 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:52.625
+21/11/30 16:39:52.763 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:52.763
+21/11/30 16:39:52.767 main INFO MaxBandwidthPath: Total time cost: cost = 138 milliseconds
+21/11/30 16:39:52.769 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4140->1893->1395->210->211->212->796->4372->4373->3643->695->196->3459->3549->146->1813->4298->2523->2150->4425->3434->3168->4540->1050->1985->1986->3499->2806->4652->130->131->3356->3355->4818->3010->1663->2949->2950->849->850->2109->2110->1834->1835->2681->2680->1914->1915->273->562->556->1968->3115->1896->4852->4689->3506->4410->4411]
+21/11/30 16:39:52.771 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1537394278
+
+21/11/30 16:39:52.772 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:52.772 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.772 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:52.773 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:52.773
+21/11/30 16:39:52.869 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:52.869
+21/11/30 16:39:52.877 main INFO MaxBandwidthPath: Total time cost: cost = 96 milliseconds
+21/11/30 16:39:52.879 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4140->1893->1395->210->211->212->796->4372->4373->3643->695->196->3459->3549->146->1813->1082->608->3358->4700->4701->4702->4661->4660->3657->3658->341->340->1027->1026->1025->63->2705->3505->3506->4410->4411]
+21/11/30 16:39:52.880 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1537394278
+
+21/11/30 16:39:52.880 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:52.881 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.881 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:52.882 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:52.882
+21/11/30 16:39:52.907 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:52.906
+21/11/30 16:39:52.909 main INFO MaxBandwidthPath: Total time cost: cost = 24 milliseconds
+21/11/30 16:39:52.912 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4140->1893->1395->210->211->212->796->4372->4373->3643->695->196->3459->3549->146->1813->4298->2523->2150->4425->3434->3168->4540->1050->1985->1986->3499->2806->4652->130->4374->2022->2023->4025->2824->2601->4261->4262->3197->389->1695->4893->775->3879->167->3696->571->4663->4664->3335->3334->4636->678->2442->2443->2705->3505->3506->4410->4411]
+21/11/30 16:39:52.914 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1537394278
+
+21/11/30 16:39:52.915 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:52.915 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:52.915 main INFO MaxBandwidthPath: s = 426, t = 4854
+21/11/30 16:39:52.916 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:52.917 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:52.917 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:52.917
+21/11/30 16:39:53.065 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:53.065
+21/11/30 16:39:53.068 main INFO MaxBandwidthPath: Total time cost: cost = 148 milliseconds
+21/11/30 16:39:53.069 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [426->4997->1234->1235->1236->716->4591->759->1864->3188->3410->4855->4854]
+21/11/30 16:39:53.070 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1449964404
+
+21/11/30 16:39:53.071 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:53.071 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.071 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:53.072 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:53.072
+21/11/30 16:39:53.167 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:53.161
+21/11/30 16:39:53.169 main INFO MaxBandwidthPath: Total time cost: cost = 89 milliseconds
+21/11/30 16:39:53.171 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [426->4997->1234->1235->1236->716->4591->759->1864->3188->3410->4855->4854]
+21/11/30 16:39:53.172 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1449964404
+
+21/11/30 16:39:53.173 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:53.173 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.173 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:53.174 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:53.174
+21/11/30 16:39:53.193 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:53.193
+21/11/30 16:39:53.200 main INFO MaxBandwidthPath: Total time cost: cost = 19 milliseconds
+21/11/30 16:39:53.200 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [426->4997->1234->1235->1236->2309->2308->1092->4994->2969->4366->1669->1506->1507->389->1695->4893->775->3879->3880->3868->2623->4242->2971->1864->3188->3410->4855->4854]
+21/11/30 16:39:53.201 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1449964404
+
+21/11/30 16:39:53.202 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:53.202 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.202 main INFO MaxBandwidthPath: s = 3001, t = 2356
+21/11/30 16:39:53.203 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:53.203 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:53.204 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:53.204
+21/11/30 16:39:53.369 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:53.369
+21/11/30 16:39:53.378 main INFO MaxBandwidthPath: Total time cost: cost = 165 milliseconds
+21/11/30 16:39:53.381 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3001->2573->2574->3859->209->935->936->2200->2201->2028->4756->3714->3966->4750->2621->4930->2209->3394->3293->708->707->4933->1945->1946->1947->1948->2425->3786->536->1840->3976->3975->3974->3973->493->494->1049->1050->1985->1986->3499->2806->4652->130->4374->2022->271->272->273->3207->3643->2356]
+21/11/30 16:39:53.381 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 449668483
+
+21/11/30 16:39:53.381 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:53.381 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.382 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:53.382 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:53.382
+21/11/30 16:39:53.475 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:53.475
+21/11/30 16:39:53.481 main INFO MaxBandwidthPath: Total time cost: cost = 93 milliseconds
+21/11/30 16:39:53.483 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3001->2573->2574->3859->209->935->936->2200->2201->2028->4756->3714->3966->4750->2621->4930->2209->3394->3293->708->707->4686->4685->4830->2356]
+21/11/30 16:39:53.485 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 449668483
+
+21/11/30 16:39:53.485 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:53.486 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.487 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:53.491 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:53.491
+21/11/30 16:39:53.506 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:53.506
+21/11/30 16:39:53.512 main INFO MaxBandwidthPath: Total time cost: cost = 15 milliseconds
+21/11/30 16:39:53.513 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3001->2573->2574->3859->3858->2035->4952->4953->1317->3746->3747->1092->4994->2969->4366->1669->1506->1507->389->1695->4893->775->3879->167->3696->571->4663->3914->3915->1183->2033->29->349->3090->3091->4292->4736->1200->1125->1293->1294->4685->4830->2356]
+21/11/30 16:39:53.513 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 449668483
+
+21/11/30 16:39:53.514 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:53.514 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.629 main INFO MaxBandwidthPath: ================================ Start to run 3 algorithms on the given graph ================================
+
+21/11/30 16:39:53.637 main INFO MaxBandwidthPath: # of edges: m = 15000
+21/11/30 16:39:53.638 main INFO MaxBandwidthPath: # of vertices: n = 5000
+21/11/30 16:39:53.639 main INFO MaxBandwidthPath: Average degree: average = 6.0
+21/11/30 16:39:53.641 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.641 main INFO MaxBandwidthPath: s = 3129, t = 4581
+21/11/30 16:39:53.642 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:53.642 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:53.642 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:53.642
+21/11/30 16:39:53.831 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:53.827
+21/11/30 16:39:53.835 main INFO MaxBandwidthPath: Total time cost: cost = 185 milliseconds
+21/11/30 16:39:53.837 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3129->558->557->1271->2306->1582->1335->1336->1337->4400->3351->123->104->105->3954->764->1601->2905->4682->363->4279->4278->4580->4581]
+21/11/30 16:39:53.838 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1314312948
+
+21/11/30 16:39:53.839 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:53.843 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.843 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:53.843 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:53.843
+21/11/30 16:39:53.904 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:53.904
+21/11/30 16:39:53.907 main INFO MaxBandwidthPath: Total time cost: cost = 61 milliseconds
+21/11/30 16:39:53.909 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3129->558->557->1271->2306->1582->1335->1336->1337->4400->3351->123->104->105->3954->764->1601->2905->4682->363->4279->4278->4580->4581]
+21/11/30 16:39:53.910 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1314312948
+
+21/11/30 16:39:53.911 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:53.912 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.912 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:53.912 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:53.912
+21/11/30 16:39:53.939 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:53.939
+21/11/30 16:39:53.945 main INFO MaxBandwidthPath: Total time cost: cost = 27 milliseconds
+21/11/30 16:39:53.947 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3129->558->557->1271->2306->1582->1335->1336->1337->4400->3351->123->104->105->3954->764->1601->2905->4682->363->4279->4278->4580->4581]
+21/11/30 16:39:53.947 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1314312948
+
+21/11/30 16:39:53.947 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:53.948 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:53.948 main INFO MaxBandwidthPath: s = 1461, t = 506
+21/11/30 16:39:53.953 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:53.954 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:53.959 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:53.959
+21/11/30 16:39:54.174 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:54.174
+21/11/30 16:39:54.181 main INFO MaxBandwidthPath: Total time cost: cost = 215 milliseconds
+21/11/30 16:39:54.182 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1461->4453->4452->4451->3705->2102->3901->2821->949->2372->607->608->1955->81->253->254->255->4128->1337->4400->1035->1034->3586->3585->1041->506]
+21/11/30 16:39:54.183 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1394841661
+
+21/11/30 16:39:54.183 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:54.187 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.187 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:54.187 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:54.187
+21/11/30 16:39:54.247 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:54.247
+21/11/30 16:39:54.249 main INFO MaxBandwidthPath: Total time cost: cost = 60 milliseconds
+21/11/30 16:39:54.251 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1461->4453->4452->4451->3705->2102->3901->2821->949->2372->607->608->1955->81->253->254->255->4128->1337->4400->1035->1034->3586->3585->1041->506]
+21/11/30 16:39:54.252 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1394841661
+
+21/11/30 16:39:54.252 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:54.252 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.253 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:54.253 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:54.253
+21/11/30 16:39:54.265 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:54.265
+21/11/30 16:39:54.271 main INFO MaxBandwidthPath: Total time cost: cost = 12 milliseconds
+21/11/30 16:39:54.272 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1461->4453->4452->4451->3705->2102->3901->2821->4580->4278->4279->363->4682->2905->1601->764->2302->2301->43->44->715->803->3109->3108->1206->3884->1861->72->1035->1034->3586->3585->1041->506]
+21/11/30 16:39:54.273 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1394841661
+
+21/11/30 16:39:54.273 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:54.276 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.278 main INFO MaxBandwidthPath: s = 3908, t = 1842
+21/11/30 16:39:54.279 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:54.279 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:54.279 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:54.279
+21/11/30 16:39:54.435 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:54.435
+21/11/30 16:39:54.437 main INFO MaxBandwidthPath: Total time cost: cost = 156 milliseconds
+21/11/30 16:39:54.439 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3908->3909->679->653->631->4407->4406->4405->4548->1562->4551->1086->3071->3072->1843->1842]
+21/11/30 16:39:54.440 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1335256500
+
+21/11/30 16:39:54.440 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:54.440 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.441 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:54.441 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:54.441
+21/11/30 16:39:54.488 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:54.488
+21/11/30 16:39:54.490 main INFO MaxBandwidthPath: Total time cost: cost = 47 milliseconds
+21/11/30 16:39:54.492 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3908->3909->679->653->631->4407->4406->4405->4548->1562->4551->1086->3071->3072->1843->1842]
+21/11/30 16:39:54.492 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1335256500
+
+21/11/30 16:39:54.493 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:54.493 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.494 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:54.494 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:54.494
+21/11/30 16:39:54.501 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:54.501
+21/11/30 16:39:54.508 main INFO MaxBandwidthPath: Total time cost: cost = 7 milliseconds
+21/11/30 16:39:54.508 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3908->3909->679->653->631->4407->4406->1756->1755->3415->1034->1035->72->3095->2174->2512->2513->4742->494->217->2964->3078->3962->3963->1874->1110->1109->1660->4500->1972->2657->428->3428->4958->4957->1554->1641->4572->4571->2781->3087->3086->3085->1250->2605->3535->3534->2610->3790->468->467->466->2734->4231->4859->4858->401->875->876->3419->854->853->4988->963->964->4281->4280->3072->1843->1842]
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1335256500
+
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: s = 230, t = 3508
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:54.509 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:54.510 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:54.51
+21/11/30 16:39:54.601 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:54.6
+21/11/30 16:39:54.603 main INFO MaxBandwidthPath: Total time cost: cost = 90 milliseconds
+21/11/30 16:39:54.606 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [230->229->228->227->1327->1326->661->1807->1806->1805->3382->1734->1735->1110->1109->1660->4500->1972->2657->428->3428->4958->4957->1554->1641->4572->4571->2781->3087->3086->3085->1250->2605->3535->3534->2610->3790->468->467->466->2734->4231->4859->4858->401->875->876->3419->854->853->4988->963->964->4281->4282->623->1298->2024->2911->2912->2913->2914->1619->2247->2246->3508]
+21/11/30 16:39:54.606 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1657161416
+
+21/11/30 16:39:54.606 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:54.607 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.607 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:54.608 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:54.607
+21/11/30 16:39:54.658 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:54.658
+21/11/30 16:39:54.660 main INFO MaxBandwidthPath: Total time cost: cost = 51 milliseconds
+21/11/30 16:39:54.662 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [230->229->228->227->1327->1326->661->1807->1806->1805->3382->1734->1735->1110->1109->1660->4500->1972->2657->428->3428->4958->4957->1554->1641->4572->4571->2781->3087->3086->3085->1250->2605->3535->3534->2610->3790->468->467->466->2734->4231->4859->4858->401->875->876->3419->854->853->4988->963->964->4281->4282->623->1298->2024->2911->2912->2913->2914->1619->2247->2246->3508]
+21/11/30 16:39:54.662 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1657161416
+
+21/11/30 16:39:54.663 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:54.664 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.664 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:54.664 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:54.664
+21/11/30 16:39:54.672 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:54.672
+21/11/30 16:39:54.676 main INFO MaxBandwidthPath: Total time cost: cost = 8 milliseconds
+21/11/30 16:39:54.676 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [230->229->228->227->1327->1326->661->1807->1806->1805->3382->1734->1735->1110->1109->1660->4500->1972->2657->428->3428->4958->4957->1554->1641->4572->4571->2781->3087->3086->3085->1250->2605->3535->3534->2610->3790->468->467->466->2734->4231->4859->4858->401->875->876->3419->854->853->4988->963->964->4281->4282->623->1298->2024->2911->2912->2913->2914->1619->2247->2246->3508]
+21/11/30 16:39:54.676 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1657161416
+
+21/11/30 16:39:54.677 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:54.677 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.677 main INFO MaxBandwidthPath: s = 3639, t = 2267
+21/11/30 16:39:54.677 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:54.683 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:54.687 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:54.687
+21/11/30 16:39:54.840 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:54.84
+21/11/30 16:39:54.842 main INFO MaxBandwidthPath: Total time cost: cost = 153 milliseconds
+21/11/30 16:39:54.844 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3639->2840->982->3607->3606->1255->4884->4883->3533->1274->4271->4272->872->1540->2712->1097->1098->1099->387->3141->1448->2476->2477->1751->4659->1246->1245->79->3805->2040->1215->1214->768->3928->3929->2095->1555->1556->1644->1645->1646->343->2193->2215->3520->1822->1821->1482->4743->4742->2513->2512->2174->3095->72->1861->3395->4887->2267]
+21/11/30 16:39:54.845 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1562339295
+
+21/11/30 16:39:54.845 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:54.845 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.846 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:54.849 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:54.847
+21/11/30 16:39:54.898 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:54.898
+21/11/30 16:39:54.900 main INFO MaxBandwidthPath: Total time cost: cost = 51 milliseconds
+21/11/30 16:39:54.902 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3639->2840->982->3607->3606->1255->4884->4883->3533->1274->4271->4272->872->1540->2712->1097->1098->1099->387->3141->1448->2476->2477->1751->4659->1246->1245->79->3805->2040->1215->1214->768->3928->3929->2095->1555->1556->1644->1645->1646->343->2193->2215->3520->1822->1821->1482->4743->4742->2513->2512->2174->3095->72->1861->3395->4887->2267]
+21/11/30 16:39:54.902 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1562339295
+
+21/11/30 16:39:54.904 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:54.904 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.904 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:54.904 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:54.904
+21/11/30 16:39:54.906 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:54.906
+21/11/30 16:39:54.909 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:54.909 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3639->2840->982->3607->3606->1255->4884->4883->3533->1274->4271->4272->872->1540->2712->1097->1098->1099->387->3141->1448->2476->2477->1751->4659->1246->1245->2997->2996->2995->1939->668->1379->4955->1964->1394->1393->3659->3658->1522->4739->3733->3734->3735->4813->4812->4811->4810->2330->3831->2784->584->2587->4681->4682->2905->1601->764->2302->2301->43->44->715->803->3109->3108->1206->3884->1861->72->1035->1034->3586->3585->1041->2641->1465->827->828->2315->2314->3157->1356->1353->1135->1136->2768->3423->3043->3044->4870->2595->2594->2593->2189->2466->732->733->1300->3394->3395->4887->2267]
+21/11/30 16:39:54.909 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1562339295
+
+21/11/30 16:39:54.909 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:54.910 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.978 main INFO MaxBandwidthPath: ================================ Start to run 3 algorithms on the given graph ================================
+
+21/11/30 16:39:54.981 main INFO MaxBandwidthPath: # of edges: m = 15000
+21/11/30 16:39:54.981 main INFO MaxBandwidthPath: # of vertices: n = 5000
+21/11/30 16:39:54.984 main INFO MaxBandwidthPath: Average degree: average = 6.0
+21/11/30 16:39:54.985 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:54.985 main INFO MaxBandwidthPath: s = 2283, t = 425
+21/11/30 16:39:54.985 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:54.985 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:54.985 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:54.985
+21/11/30 16:39:55.092 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:55.092
+21/11/30 16:39:55.099 main INFO MaxBandwidthPath: Total time cost: cost = 107 milliseconds
+21/11/30 16:39:55.099 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2283->470->143->324->323->2498->2370->881->3584->1528->4843->144->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->1155->3357->1498->1499->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3225->3224->3238->3239->4415->4416->3758->2352->4986->3640->3641->3642->4120->1356->128->127->4079->4078->4077->425]
+21/11/30 16:39:55.100 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1159109683
+
+21/11/30 16:39:55.100 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:55.101 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.102 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:55.103 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:55.103
+21/11/30 16:39:55.153 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:55.153
+21/11/30 16:39:55.155 main INFO MaxBandwidthPath: Total time cost: cost = 50 milliseconds
+21/11/30 16:39:55.157 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2283->470->143->324->323->2498->2370->881->3584->1528->4843->144->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->1155->3357->1498->1499->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3225->3224->3238->3239->4415->4416->3758->2352->4986->3640->3641->3642->4120->1356->128->127->4079->4078->4077->425]
+21/11/30 16:39:55.158 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1159109683
+
+21/11/30 16:39:55.158 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:55.158 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.159 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:55.159 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:55.159
+21/11/30 16:39:55.179 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:55.179
+21/11/30 16:39:55.181 main INFO MaxBandwidthPath: Total time cost: cost = 20 milliseconds
+21/11/30 16:39:55.182 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2283->470->143->324->323->2498->2370->881->3584->1528->4843->144->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->27->26->1235->1666->1667->1668->3410->567->568->2037->1522->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3225->3224->3238->3239->4415->4416->3758->2352->4986->3640->3641->3642->4120->1356->128->127->4079->4078->4077->425]
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1159109683
+
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: s = 2778, t = 3046
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:55.187 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:55.187
+21/11/30 16:39:55.288 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:55.288
+21/11/30 16:39:55.290 main INFO MaxBandwidthPath: Total time cost: cost = 101 milliseconds
+21/11/30 16:39:55.292 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2778->2779->2737->2736->2735->2734->3433->4220->4221->3246->4188->1933->1934->3919->4196->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->27->26->1235->1750->3046]
+21/11/30 16:39:55.292 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1713605369
+
+21/11/30 16:39:55.293 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:55.293 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.294 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:55.294 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:55.294
+21/11/30 16:39:55.342 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:55.342
+21/11/30 16:39:55.344 main INFO MaxBandwidthPath: Total time cost: cost = 48 milliseconds
+21/11/30 16:39:55.346 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2778->2779->2737->2736->2735->2734->3433->4220->4221->3246->4188->1933->1934->3919->4196->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->27->26->1235->1750->3046]
+21/11/30 16:39:55.346 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1713605369
+
+21/11/30 16:39:55.347 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:55.348 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.348 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:55.352 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:55.352
+21/11/30 16:39:55.360 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:55.36
+21/11/30 16:39:55.362 main INFO MaxBandwidthPath: Total time cost: cost = 8 milliseconds
+21/11/30 16:39:55.362 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2778->2779->2737->2736->2735->2734->3433->4220->4221->3246->4188->1933->1934->3919->4196->4585->1803->1804->1805->272->2129->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->27->26->1235->1750->3046]
+21/11/30 16:39:55.362 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1713605369
+
+21/11/30 16:39:55.362 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:55.362 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.363 main INFO MaxBandwidthPath: s = 3319, t = 1595
+21/11/30 16:39:55.363 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:55.363 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:55.363 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:55.363
+21/11/30 16:39:55.512 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:55.512
+21/11/30 16:39:55.514 main INFO MaxBandwidthPath: Total time cost: cost = 149 milliseconds
+21/11/30 16:39:55.516 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3319->2985->3044->3635->4339->1971->891->3418->3419->2483->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->4148->3098->3099->1677->3401->1595]
+21/11/30 16:39:55.516 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1659142490
+
+21/11/30 16:39:55.517 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:55.517 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.517 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:55.517 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:55.517
+21/11/30 16:39:55.565 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:55.565
+21/11/30 16:39:55.567 main INFO MaxBandwidthPath: Total time cost: cost = 48 milliseconds
+21/11/30 16:39:55.569 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3319->2985->3044->3635->4339->1971->891->3418->3419->2483->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->4148->3098->3099->1677->3401->1595]
+21/11/30 16:39:55.569 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1659142490
+
+21/11/30 16:39:55.570 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:55.571 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.571 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:55.571 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:55.571
+21/11/30 16:39:55.574 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:55.574
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: Total time cost: cost = 3 milliseconds
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3319->2985->3044->3635->4339->1971->891->3418->3419->2483->2482->3502->3503->962->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->4148->3098->3099->1677->3401->1595]
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1659142490
+
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: s = 2351, t = 1468
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:55.577 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:55.578 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:55.578
+21/11/30 16:39:55.683 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:55.683
+21/11/30 16:39:55.691 main INFO MaxBandwidthPath: Total time cost: cost = 105 milliseconds
+21/11/30 16:39:55.691 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2351->2352->3758->4416->4415->3239->3238->3224->3225->4492->4491->1508->3013->3012->4420->1122->1123->1037->4776->1295->1522->2037->568->567->3410->1668->1667->1666->1235->26->27->4149->3579->1072->1071->1070->2541->1901->2111->2110->2865->2597->963->3343->2944->4341->4160->2399->1880->1881->3717->3910->3909->715->3680->1467->1468]
+21/11/30 16:39:55.692 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1403203704
+
+21/11/30 16:39:55.692 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:55.692 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.692 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:55.693 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:55.692
+21/11/30 16:39:55.741 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:55.741
+21/11/30 16:39:55.743 main INFO MaxBandwidthPath: Total time cost: cost = 49 milliseconds
+21/11/30 16:39:55.745 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2351->2352->3758->4416->4415->3239->3238->3224->3225->4492->4491->1508->3013->3012->4420->1122->1123->1037->4776->1295->1522->2037->568->567->3410->1668->1667->1666->1235->26->27->4149->3579->1072->1071->1070->2541->1901->1900->3475->3362->136->102->4785->4637->2608->2609->3911->3910->3909->715->3680->1467->1468]
+21/11/30 16:39:55.745 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1403203704
+
+21/11/30 16:39:55.746 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:55.746 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.746 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:55.747 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:55.747
+21/11/30 16:39:55.752 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:55.749
+21/11/30 16:39:55.752 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:55.752 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2351->2352->3758->4416->4415->3239->3238->3224->3225->4492->4491->1508->3013->3012->4420->1122->1123->1037->4776->1295->1522->2037->568->567->3410->1668->1667->1666->1235->26->27->4149->3579->1072->1071->1070->2541->1901->2111->2110->2865->2597->963->962->3503->3502->2482->2129->272->1805->1804->1803->4585->4196->1153->1994->2446->2445->44->45->46->3756->3025->3398->1999->2262->2263->2264->2711->4639->4038->423->424->149->148->3078->2154->347->2740->101->102->4785->4608->3680->1467->1468]
+21/11/30 16:39:55.753 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1403203704
+
+21/11/30 16:39:55.753 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:55.753 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.753 main INFO MaxBandwidthPath: s = 4160, t = 720
+21/11/30 16:39:55.754 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:55.754 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:55.758 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:55.754
+21/11/30 16:39:55.834 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:55.834
+21/11/30 16:39:55.843 main INFO MaxBandwidthPath: Total time cost: cost = 80 milliseconds
+21/11/30 16:39:55.844 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4160->4341->2944->3343->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->1155->3357->1498->1499->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3073->3072->4327->285->687->686->3257->2674->2675->905->904->4006->4005->2313->2312->2310->3209->346->345->1547->1322->1321->2733->76->2726->2725->719->720]
+21/11/30 16:39:55.845 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 974290339
+
+21/11/30 16:39:55.846 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:55.846 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.846 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:55.846 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:55.846
+21/11/30 16:39:55.939 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:55.938
+21/11/30 16:39:55.941 main INFO MaxBandwidthPath: Total time cost: cost = 92 milliseconds
+21/11/30 16:39:55.944 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4160->4341->2944->3343->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->1155->3357->1498->1499->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3073->3072->4327->285->687->686->3257->2674->2675->905->904->4006->4005->2313->2312->2310->3209->346->345->1547->1322->1321->2733->76->2726->2725->719->720]
+21/11/30 16:39:55.945 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 974290339
+
+21/11/30 16:39:55.947 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:55.947 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:55.947 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:55.947 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:55.947
+21/11/30 16:39:55.949 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:55.949
+21/11/30 16:39:55.959 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:55.959 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4160->4341->2944->3343->963->2597->2865->2110->2111->1901->2541->1070->1071->1072->3579->4149->27->26->1235->1666->1667->1668->3410->567->568->2037->1522->1295->4776->1037->1123->1122->4420->3012->3013->1508->4491->4492->3073->3072->4327->285->687->686->3257->2674->2675->905->904->4006->4005->2313->2312->2310->3209->346->345->1547->1322->1321->2733->76->2726->2725->719->720]
+21/11/30 16:39:55.959 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 974290339
+
+21/11/30 16:39:55.959 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:55.959 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.044 main INFO MaxBandwidthPath: ================================ Start to run 3 algorithms on the given graph ================================
+
+21/11/30 16:39:56.046 main INFO MaxBandwidthPath: # of edges: m = 15000
+21/11/30 16:39:56.049 main INFO MaxBandwidthPath: # of vertices: n = 5000
+21/11/30 16:39:56.051 main INFO MaxBandwidthPath: Average degree: average = 6.0
+21/11/30 16:39:56.051 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.052 main INFO MaxBandwidthPath: s = 3571, t = 832
+21/11/30 16:39:56.052 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:56.052 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:56.052 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:56.052
+21/11/30 16:39:56.224 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:56.224
+21/11/30 16:39:56.226 main INFO MaxBandwidthPath: Total time cost: cost = 172 milliseconds
+21/11/30 16:39:56.227 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3571->3572->821->3280->3279->2305->1975->597->2868->3199->3692->2733->2732->4295->2727->2726->789->807->1074->2962->3180->3181->4977->3479->3478->3477->832]
+21/11/30 16:39:56.228 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 955091365
+
+21/11/30 16:39:56.228 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:56.228 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.229 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:56.229 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:56.229
+21/11/30 16:39:56.274 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:56.274
+21/11/30 16:39:56.276 main INFO MaxBandwidthPath: Total time cost: cost = 45 milliseconds
+21/11/30 16:39:56.283 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3571->3572->821->3280->3279->2305->1975->597->2868->3199->3692->2733->2732->4295->2727->2726->789->807->1074->2962->3180->3181->4977->3479->3478->3477->832]
+21/11/30 16:39:56.283 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 955091365
+
+21/11/30 16:39:56.283 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:56.284 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.284 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:56.285 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:56.285
+21/11/30 16:39:56.293 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:56.293
+21/11/30 16:39:56.296 main INFO MaxBandwidthPath: Total time cost: cost = 8 milliseconds
+21/11/30 16:39:56.296 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3571->3572->821->3280->3279->2305->1975->597->2868->3199->3692->2733->2732->4295->2727->2726->3922->3921->3920->3919->3307->3306->1481->1482->4140->3397->4831->4693->3547->3548->3549->1381->1382->4324->1224->4553->4554->1533->1532->3359->3358->295->491->2019->2018->565->566->567->834->833->832]
+21/11/30 16:39:56.296 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 955091365
+
+21/11/30 16:39:56.297 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:56.297 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.297 main INFO MaxBandwidthPath: s = 3858, t = 2843
+21/11/30 16:39:56.297 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:56.298 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:56.298 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:56.298
+21/11/30 16:39:56.409 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:56.409
+21/11/30 16:39:56.411 main INFO MaxBandwidthPath: Total time cost: cost = 111 milliseconds
+21/11/30 16:39:56.413 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3858->755->4779->1011->50->4405->1851->1341->1703->4996->4995->3165->959->958->4892->4893->2841->2842->2843]
+21/11/30 16:39:56.414 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1334267975
+
+21/11/30 16:39:56.414 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:56.415 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.415 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:56.415 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:56.415
+21/11/30 16:39:56.462 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:56.462
+21/11/30 16:39:56.464 main INFO MaxBandwidthPath: Total time cost: cost = 47 milliseconds
+21/11/30 16:39:56.465 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3858->755->4779->1011->50->4405->1851->1341->1703->4996->4995->3165->959->958->4892->4893->2841->2842->2843]
+21/11/30 16:39:56.466 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1334267975
+
+21/11/30 16:39:56.467 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:56.467 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.467 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:56.467 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:56.467
+21/11/30 16:39:56.469 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:56.469
+21/11/30 16:39:56.471 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:56.472 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3858->755->4779->1011->50->4405->1851->1341->1703->4996->4995->3165->959->958->4892->4893->2841->2842->2843]
+21/11/30 16:39:56.472 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1334267975
+
+21/11/30 16:39:56.472 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:56.473 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.473 main INFO MaxBandwidthPath: s = 4350, t = 961
+21/11/30 16:39:56.473 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:56.473 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:56.473 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:56.473
+21/11/30 16:39:56.587 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:56.586
+21/11/30 16:39:56.589 main INFO MaxBandwidthPath: Total time cost: cost = 113 milliseconds
+21/11/30 16:39:56.590 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4350->1368->1369->2278->1382->1381->3549->3548->3547->4693->4831->3397->4786->1319->1318->4113->4114->879->811->812->1039->1038->4757->961]
+21/11/30 16:39:56.590 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 973635841
+
+21/11/30 16:39:56.591 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:56.591 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.592 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:56.592 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:56.592
+21/11/30 16:39:56.636 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:56.636
+21/11/30 16:39:56.639 main INFO MaxBandwidthPath: Total time cost: cost = 44 milliseconds
+21/11/30 16:39:56.641 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4350->1368->1369->2278->1382->1381->3549->3548->3547->4693->4831->3397->4786->1319->1318->4113->4114->879->811->812->1039->1038->4757->961]
+21/11/30 16:39:56.641 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 973635841
+
+21/11/30 16:39:56.641 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:56.641 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.642 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:56.642 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:56.642
+21/11/30 16:39:56.645 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:56.645
+21/11/30 16:39:56.647 main INFO MaxBandwidthPath: Total time cost: cost = 3 milliseconds
+21/11/30 16:39:56.647 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4350->1368->1369->2278->1382->1381->3549->3548->3547->4693->4831->3397->4140->1482->1481->3306->3307->3919->3920->3921->3922->2726->2727->4295->2732->2733->3692->3199->2868->597->1975->2305->3279->3280->2713->2714->2715->1039->1038->4757->961]
+21/11/30 16:39:56.647 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 973635841
+
+21/11/30 16:39:56.647 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:56.648 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.648 main INFO MaxBandwidthPath: s = 4812, t = 1358
+21/11/30 16:39:56.648 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:56.648 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:56.648 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:56.648
+21/11/30 16:39:56.786 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:56.786
+21/11/30 16:39:56.789 main INFO MaxBandwidthPath: Total time cost: cost = 138 milliseconds
+21/11/30 16:39:56.790 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4812->2115->2116->760->759->3477->3478->3479->4977->3181->3180->2962->1074->807->789->2726->3922->3921->3920->3919->3307->3306->1481->1482->4140->3397->4786->1319->1318->4113->4114->879->1117->4855->4894->3047->1578->41->3066->3639->3640->3200->1357->1358]
+21/11/30 16:39:56.791 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1600302504
+
+21/11/30 16:39:56.791 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:56.791 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.791 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:56.792 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:56.792
+21/11/30 16:39:56.842 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:56.842
+21/11/30 16:39:56.844 main INFO MaxBandwidthPath: Total time cost: cost = 50 milliseconds
+21/11/30 16:39:56.846 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4812->2115->2116->760->759->3477->3478->3479->4977->3181->3180->2962->1074->807->789->2726->3922->3921->3920->3919->3307->3306->1481->1482->4140->3397->4786->1319->1318->4113->4114->879->1117->4855->4894->3047->1578->41->3066->3639->3640->3200->1357->1358]
+21/11/30 16:39:56.847 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1600302504
+
+21/11/30 16:39:56.847 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:56.847 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.847 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:56.847 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:56.847
+21/11/30 16:39:56.851 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:56.851
+21/11/30 16:39:56.852 main INFO MaxBandwidthPath: Total time cost: cost = 4 milliseconds
+21/11/30 16:39:56.852 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4812->2115->2116->760->759->3477->3478->3479->4977->3181->3180->2962->1074->807->789->2726->3922->3921->3920->3919->3307->3306->1481->1482->4140->3397->4831->4693->3547->3548->3549->1381->1382->4324->1224->4553->4554->1533->1532->4890->1930->2603->2281->2177->2670->4489->171->3640->3200->1357->1358]
+21/11/30 16:39:56.853 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1600302504
+
+21/11/30 16:39:56.853 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:56.854 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.854 main INFO MaxBandwidthPath: s = 469, t = 3376
+21/11/30 16:39:56.854 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:56.854 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:56.854 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:56.854
+21/11/30 16:39:56.978 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:56.978
+21/11/30 16:39:56.980 main INFO MaxBandwidthPath: Total time cost: cost = 124 milliseconds
+21/11/30 16:39:56.981 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [469->4848->3747->1127->4655->4656->1884->4968->674->1205->755->4779->1011->50->4405->4582->2498->2403->3150->594->2298->2299->3798->614->615->616->3595->3594->3593->1604->1603->2212->47->48->2066->1294->4698->2647->2648->3376]
+21/11/30 16:39:56.982 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1507600427
+
+21/11/30 16:39:56.982 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:56.983 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:56.983 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:56.983 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:56.983
+21/11/30 16:39:57.037 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.032
+21/11/30 16:39:57.040 main INFO MaxBandwidthPath: Total time cost: cost = 49 milliseconds
+21/11/30 16:39:57.041 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [469->4848->3747->1127->4655->4656->1884->4968->674->1205->755->4779->1011->50->4405->4582->2498->2403->3150->594->2298->2299->3798->614->615->616->3595->3594->3593->1604->1603->2212->47->48->2066->1294->4698->2647->2648->3376]
+21/11/30 16:39:57.042 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1507600427
+
+21/11/30 16:39:57.042 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.042 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.042 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.043 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.043
+21/11/30 16:39:57.045 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.045
+21/11/30 16:39:57.048 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:57.048 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [469->4848->3747->1127->4655->4656->1884->4968->674->1205->755->4779->1011->50->4405->1851->1341->1703->4996->4995->3165->959->958->4892->4893->1317->1318->1319->4786->3397->4140->1482->1481->3306->3307->3919->3920->3921->3922->2726->789->807->3969->615->616->3595->3594->3593->1604->1603->2212->47->48->2066->1294->4698->2647->2648->3376]
+21/11/30 16:39:57.048 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1507600427
+
+21/11/30 16:39:57.051 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.052 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.099 main INFO MaxBandwidthPath: ================================ Start to run 3 algorithms on the given graph ================================
+
+21/11/30 16:39:57.101 main INFO MaxBandwidthPath: # of edges: m = 15000
+21/11/30 16:39:57.103 main INFO MaxBandwidthPath: # of vertices: n = 5000
+21/11/30 16:39:57.106 main INFO MaxBandwidthPath: Average degree: average = 6.0
+21/11/30 16:39:57.106 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.106 main INFO MaxBandwidthPath: s = 4361, t = 4687
+21/11/30 16:39:57.107 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:57.107 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:57.107 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:57.107
+21/11/30 16:39:57.189 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:57.189
+21/11/30 16:39:57.191 main INFO MaxBandwidthPath: Total time cost: cost = 82 milliseconds
+21/11/30 16:39:57.192 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4361->4952->1289->1288->4384->4484->4485->88->3922->3923->3806->3365->4687]
+21/11/30 16:39:57.193 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1367377640
+
+21/11/30 16:39:57.193 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:57.193 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.194 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:57.194 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:57.194
+21/11/30 16:39:57.240 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.239
+21/11/30 16:39:57.241 main INFO MaxBandwidthPath: Total time cost: cost = 45 milliseconds
+21/11/30 16:39:57.243 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4361->4952->1289->1288->4384->4484->4485->88->3922->3923->3806->3365->4687]
+21/11/30 16:39:57.243 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1367377640
+
+21/11/30 16:39:57.244 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.244 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.244 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.245 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.244
+21/11/30 16:39:57.255 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.255
+21/11/30 16:39:57.257 main INFO MaxBandwidthPath: Total time cost: cost = 11 milliseconds
+21/11/30 16:39:57.258 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [4361->4952->1289->1288->4384->4986->4470->1133->66->4107->4106->3893->2936->2935->3533->2571->2361->2360->3373->1986->573->501->500->4543->4079->4078->1302->1301->1578->1577->3095->1018->1017->1016->4099->4070->4069->372->1314->1315->1316->1317->1409->1410->142->143->4583->434->3132->3131->2390->3365->4687]
+21/11/30 16:39:57.258 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1367377640
+
+21/11/30 16:39:57.258 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.259 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.259 main INFO MaxBandwidthPath: s = 1961, t = 261
+21/11/30 16:39:57.259 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:57.259 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:57.259 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:57.259
+21/11/30 16:39:57.412 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:57.411
+21/11/30 16:39:57.415 main INFO MaxBandwidthPath: Total time cost: cost = 152 milliseconds
+21/11/30 16:39:57.416 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1961->787->4600->1941->4633->4568->2007->2008->1719->921->922->3003->4446->1311->4070->4099->1016->1017->1018->3095->1577->1578->1301->1302->4078->4079->4543->500->501->573->1986->3373->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4212->1648->1209->4403->4404->2996->2736->2737->49->1883->264->2104->2105->261]
+21/11/30 16:39:57.417 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1524421573
+
+21/11/30 16:39:57.417 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:57.418 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.418 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:57.418 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:57.418
+21/11/30 16:39:57.466 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.466
+21/11/30 16:39:57.468 main INFO MaxBandwidthPath: Total time cost: cost = 48 milliseconds
+21/11/30 16:39:57.469 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1961->787->4600->1941->4633->4568->2007->2008->1719->921->922->3003->4446->1311->4070->4099->1016->1017->1018->3095->1577->1578->1301->1302->4078->4079->4543->500->501->573->1986->3373->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4212->1648->1209->4403->4404->2996->2736->2737->49->1883->264->2104->2105->261]
+21/11/30 16:39:57.470 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1524421573
+
+21/11/30 16:39:57.471 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.471 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.472 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.472 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.472
+21/11/30 16:39:57.474 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.474
+21/11/30 16:39:57.476 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [1961->787->4600->1941->4633->4568->2007->2008->1719->921->922->3003->4446->1311->4070->4099->1016->1017->1018->3095->1577->1578->1301->1302->4078->4079->4543->500->501->573->1986->3373->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4212->1648->1209->4403->4404->2996->2736->2737->49->1883->264->2104->2105->261]
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1524421573
+
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: s = 2807, t = 2565
+21/11/30 16:39:57.477 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:57.478 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:57.478 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:57.478
+21/11/30 16:39:57.584 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:57.584
+21/11/30 16:39:57.586 main INFO MaxBandwidthPath: Total time cost: cost = 106 milliseconds
+21/11/30 16:39:57.587 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2807->3545->4547->4546->3237->694->1096->1045->4495->4494->2697->3860->2366->29->30->1245->1244->665->666->1285->1233->565->566->3911->3910->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4373->4346->4347->3008->3009->2844->2843->2842->1396->4607->1958->1222->2450->2863->2862->4797->4796->4795->2565]
+21/11/30 16:39:57.588 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1299344418
+
+21/11/30 16:39:57.589 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:57.589 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.589 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:57.589 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:57.589
+21/11/30 16:39:57.638 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.638
+21/11/30 16:39:57.640 main INFO MaxBandwidthPath: Total time cost: cost = 49 milliseconds
+21/11/30 16:39:57.641 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2807->3545->4547->4546->3237->694->1096->1045->4495->4494->2697->3860->2366->29->151->3755->4176->1752->1753->3584->3583->2221->2220->1980->4260->4796->4795->2565]
+21/11/30 16:39:57.642 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1299344418
+
+21/11/30 16:39:57.642 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.643 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.643 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.643 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.643
+21/11/30 16:39:57.645 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.645
+21/11/30 16:39:57.647 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:57.648 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [2807->3545->4547->4546->3237->694->1096->1045->182->183->4389->4390->3121->1960->1961->787->4600->1941->4633->4568->2007->2008->1719->921->922->3003->4446->1311->4070->4099->1016->1017->1018->3095->1577->1578->1301->1302->4078->4079->4543->500->501->573->1986->3373->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4373->4346->4347->3008->3009->2844->2843->2842->1396->4607->1958->1222->2450->2863->2862->4797->4796->4795->2565]
+21/11/30 16:39:57.648 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1299344418
+
+21/11/30 16:39:57.648 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.648 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.649 main INFO MaxBandwidthPath: s = 3718, t = 611
+21/11/30 16:39:57.649 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:57.649 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:57.649 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:57.649
+21/11/30 16:39:57.729 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:57.729
+21/11/30 16:39:57.732 main INFO MaxBandwidthPath: Total time cost: cost = 80 milliseconds
+21/11/30 16:39:57.733 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3718->2907->4502->4903->2673->2672->2261->2260->1109->294->293->2841->3569->3568->4596->739->3493->900->3201->2926->2670->2497->4388->4389->183->166->167->168->1022->1023->4193->1902->3040->3041->4276->4199->4807->2739->611]
+21/11/30 16:39:57.733 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1533911046
+
+21/11/30 16:39:57.734 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:57.734 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.734 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:57.735 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:57.734
+21/11/30 16:39:57.781 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.781
+21/11/30 16:39:57.783 main INFO MaxBandwidthPath: Total time cost: cost = 47 milliseconds
+21/11/30 16:39:57.785 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3718->2907->4502->4903->2673->2672->2261->2260->1109->294->293->2841->3569->3568->4596->739->3493->900->3201->2926->2670->2497->2498->4046->3306->3307->4145->3251->3250->1453->3793->2463->2462->4039->3040->3041->4276->4199->4807->2739->611]
+21/11/30 16:39:57.785 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1533911046
+
+21/11/30 16:39:57.787 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.787 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.787 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.787 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.787
+21/11/30 16:39:57.792 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.789
+21/11/30 16:39:57.792 main INFO MaxBandwidthPath: Total time cost: cost = 2 milliseconds
+21/11/30 16:39:57.792 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3718->2907->4502->4903->2673->2672->2261->2260->1109->294->293->2841->3569->3568->4596->4597->4598->4058->4958->797->796->795->1899->1480->3790->4977->2349->2930->1508->3416->4747->4169->1564->1318->1317->1316->1315->1314->372->4069->4070->4099->1016->1017->1018->3095->1577->1578->1301->1302->4078->4079->4543->500->501->573->1986->3373->2360->2361->2571->3533->2935->2936->3893->4106->4107->66->3369->4212->1648->1209->4146->726->4201->650->4054->4397->3393->2159->2219->2192->2193->2911->4166->3205->3204->1738->1210->57->1532->4193->1902->3040->3041->4276->4199->4807->2739->611]
+21/11/30 16:39:57.793 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1533911046
+
+21/11/30 16:39:57.793 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.793 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.793 main INFO MaxBandwidthPath: s = 3720, t = 866
+21/11/30 16:39:57.794 main INFO MaxBandwidthPath: 
+
+
+21/11/30 16:39:57.794 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap starts ================================
+
+21/11/30 16:39:57.795 main INFO MaxBandwidthPath: Start to run Dijkstra's without heap on the graph: startTime = 2021-11-30 16:39:57.794
+21/11/30 16:39:57.914 main INFO MaxBandwidthPath: Finish running Dijkstra's without heap on the graph: finishTime = 2021-11-30 16:39:57.914
+21/11/30 16:39:57.916 main INFO MaxBandwidthPath: Total time cost: cost = 120 milliseconds
+21/11/30 16:39:57.918 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3720->1792->3624->3625->3626->3627->3628->810->811->3120->3121->4390->4389->183->182->1045->4495->4494->2697->3860->2366->29->30->1245->1244->665->666->3005->1370->3534->1048->1049->4467->278->277->2850->2849->1831->866]
+21/11/30 16:39:57.918 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1530650267
+
+21/11/30 16:39:57.919 main INFO MaxBandwidthPath: ================================ Dijkstra's without heap ends ================================
+
+21/11/30 16:39:57.919 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.920 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap starts ================================
+
+21/11/30 16:39:57.920 main INFO MaxBandwidthPath: Start to run Dijkstra's with heap on the graph: startTime = 2021-11-30 16:39:57.92
+21/11/30 16:39:57.967 main INFO MaxBandwidthPath: Finish running Dijkstra's with heap on the graph: finishTime = 2021-11-30 16:39:57.966
+21/11/30 16:39:57.968 main INFO MaxBandwidthPath: Total time cost: cost = 46 milliseconds
+21/11/30 16:39:57.970 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3720->1792->3624->3625->3626->3627->3628->810->811->3120->3121->4390->4389->183->182->1045->4495->4494->2697->3860->2366->29->30->1245->1244->665->666->3005->1370->3534->1048->1049->4467->278->277->2850->2849->1831->866]
+21/11/30 16:39:57.970 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1530650267
+
+21/11/30 16:39:57.972 main INFO MaxBandwidthPath: ================================ Dijkstra's with heap ends ================================
+
+21/11/30 16:39:57.972 main INFO MaxBandwidthPath: 
+
+
+
+
+
+21/11/30 16:39:57.972 main INFO MaxBandwidthPath: ================================ Kruskal's MST starts ================================
+
+21/11/30 16:39:57.973 main INFO MaxBandwidthPath: Start to run Kruskal’s on the graph: startTime = 2021-11-30 16:39:57.973
+21/11/30 16:39:57.977 main INFO MaxBandwidthPath: Finish running Kruskal’s on the graph: finishTime = 2021-11-30 16:39:57.977
+21/11/30 16:39:57.977 main INFO MaxBandwidthPath: Total time cost: cost = 4 milliseconds
+21/11/30 16:39:57.977 main INFO MaxBandwidthPath: Maximum Bandwidth Path: path = MaximumBandwidthPath = [3720->1792->3624->3625->3626->3627->3628->810->811->3120->3121->1960->1961->787->4600->1941->4633->4568->2007->2008->1719->921->922->3003->4446->1311->4070->4069->372->1314->1315->1316->1317->1409->1410->142->1786->3847->3846->1598->2491->2839->1038->1037->866]
+21/11/30 16:39:57.978 main INFO MaxBandwidthPath: Maximum Bandwidth: bandwidth = 1530650267
+
+21/11/30 16:39:57.978 main INFO MaxBandwidthPath: ================================ Kruskal's MST ends ================================
+
+21/11/30 16:39:57.978 main INFO MaxBandwidthPath: 
+
+
+
+
+
